@@ -64,7 +64,7 @@ export function getUniqueFriends(users) {
 }
 
 // Пользователи, у которых есть друг с заданным id.
-export function getUsersWithCommonFriend(users, friendId) {
+export function findUsersWithFriend(users, friendId) {
   return users.filter((user) => user.friends.includes(friendId));
 }
 
