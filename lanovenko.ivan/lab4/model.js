@@ -74,6 +74,6 @@ export function findUsersAboveFriendCount(users, count) {
 }
 
 // Пользователи без друзей.
-export function getUsersWithoutFriends(users) {
+export function findUsersWithoutFriends(users) {
   return users.filter((user) => user.friendCount === 0);
 }
