@@ -69,7 +69,7 @@ export function findUsersWithFriend(users, friendId) {
 }
 
 // Пользователи, у которых друзей больше заданного числа.
-export function getUsersWithMoreFriendsThan(users, count) {
+export function findUsersAboveFriendCount(users, count) {
   return users.filter((user) => user.friendCount > count);
 }
 
